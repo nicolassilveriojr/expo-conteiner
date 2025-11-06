@@ -1,9 +1,9 @@
 import React from "react";
 import { ScrollView } from "react-native";
-import Titulo from "./componente/Titulo";
-import Saudacao from "./componente/Saudacao";
-import FotoPerfil from './componente/FotoPerfil';
-import CartaoUsuario from "./componente/CartaoUsuario";
+import Titulo from "./componente/Titulo.js";
+import Saudacao from "./componente/Saudacao.js";
+import FotoPerfil from './componente/FotoPerfil.js';
+import CartaoUsuario from "./componente/CartaoUsuario.js";
 
 export default function App() {
   return <ScrollView>
