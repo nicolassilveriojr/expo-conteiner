@@ -1,11 +1,11 @@
 import { StyleSheet } from "react-native";
 
-export default estilos = StyleSheet.create({
+export default StyleSheet.create({
 
     cartao: {
         backgroundColor: '#e1f7f7',
         padding: 16,
-        margintop: 15,
+        marginTop: 15,
         borderRadius: 10,
         alignItems: 'center',
         shadowColor: '#000',
@@ -14,8 +14,8 @@ export default estilos = StyleSheet.create({
         shadowRadius: 5,
         elevation: 5,
     },
-    foto: { width: 80, height: 80, borderRadius: 40, marginBottom: 10, },
+    foto: { width: 80, height: 80, borderRadius: 40, marginBottom: 10 },
     nome: { fontSize: 18, fontWeight: 'bold' },
-    descricao: { fontSize: 14, color: '#555', textAling: 'center' },
+    descricao: { fontSize: 14, color: '#555', textAlign: 'center' },
 
-})
+});

@@ -1,11 +1,11 @@
-import react from "react";
+import React from "react";
 import { Image } from "react-native";
 
 export default function FotoPerfil() {
     return (
-        <image
+        <Image
             source={require('../img/base.jpg')}
-            style={{ widht: 100, height: 100, borderRadius: 50, marginBottom: 10 }}
+            style={{ width: 100, height: 100, borderRadius: 50, marginBottom: 10 }}
         />
     );
 }

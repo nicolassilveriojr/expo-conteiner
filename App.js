@@ -1,9 +1,9 @@
 import React from "react";
 import { ScrollView } from "react-native";
-import Titulo from "./componente/Titulo";
-import Saudacao from "./componente/Saudacao";
-import FotoPerfil from './componente/FotoPerfil';
-import CartaoUsuario from "./componente/CartaoUsuario";
+import Titulo from "./componentes/titulo";
+import Saudacao from "./componentes/Saudacao";
+import FotoPerfil from './componentes/FotoPerfil';
+import CartaoUsuario from "./componentes/cartaoUsuario";
 
 export default function App() {
   return <ScrollView>
@@ -35,7 +35,6 @@ export default function App() {
       descricao={'Programador Mobile'}
       img='perfil04'
     />
-
 
   </ScrollView>
 
