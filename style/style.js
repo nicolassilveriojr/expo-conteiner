@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
 
 export default estilos = StyleSheet.create({
+
     cartao: {
-        backgroundColor: '#fff',
+        backgroundColor: '#e1f7f7',
         padding: 16,
         margintop: 15,
         borderRadius: 10,
@@ -16,4 +17,5 @@ export default estilos = StyleSheet.create({
     foto: { width: 80, height: 80, borderRadius: 40, marginBottom: 10, },
     nome: { fontSize: 18, fontWeight: 'bold' },
     descricao: { fontSize: 14, color: '#555', textAling: 'center' },
-});
+
+})
